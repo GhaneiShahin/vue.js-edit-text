@@ -1,11 +1,11 @@
 var myApp = new Vue({
   el: "#app",
   data: {
-    title: "Hello from Vue.js"
+    counter: 0
   },
   methods: {
-    changeTitle: function (event) {
-      this.title = event.target.value;
+    incriment: function () {
+      this.counter++;
     }
   }
 });

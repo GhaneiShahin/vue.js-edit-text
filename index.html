@@ -17,10 +17,9 @@
       <div class="row">
         <div class="well">
           <div id="app">
-            <input type="text" class="form-control" v-on:input="changeTitle" />
-            <br />
-            <p>{{ title }}</p>
-          </div>
+            <div>
+              <a class="btn btn-success btn-block" v-on:click="incriment">{{counter}}</a>
+            </div>
         </div>
       </div>
     </div>
